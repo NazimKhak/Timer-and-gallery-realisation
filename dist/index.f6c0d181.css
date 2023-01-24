@@ -1,0 +1,78 @@
+body {
+  background-color: #fff;
+  font-family: Lato, sans-serif;
+  position: relative;
+}
+
+.container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+h1 {
+  width: 100%;
+  margin-left: 5px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.list {
+  width: 300px;
+  counter-reset: li;
+  text-shadow: 0 1px #ffffff80;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0;
+  font-size: 20px;
+  list-style: none;
+}
+
+.list > li:first-child {
+  margin-bottom: 25px;
+}
+
+.list a {
+  color: #444;
+  background: #dad2ca;
+  border-radius: .3em;
+  margin: .5em 0;
+  padding: .4em .4em .4em 2em;
+  text-decoration: none;
+  transition: all .3s ease-out;
+  display: block;
+  position: relative;
+}
+
+.list a:hover {
+  background: #e9e4e0;
+}
+
+.list a:hover:before {
+  transform: rotate(360deg);
+}
+
+.list a:before {
+  content: counter(li);
+  counter-increment: li;
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  background: #8fd4c1;
+  border: .3em solid #fff;
+  border-radius: 2em;
+  margin-top: -1.3em;
+  font-weight: bold;
+  line-height: 1.8em;
+  transition: all .3s ease-out;
+  position: absolute;
+  top: 50%;
+  left: -1.3em;
+}
+
+.margin {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+}
+
+/*# sourceMappingURL=index.f6c0d181.css.map */
