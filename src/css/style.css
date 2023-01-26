@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #354773;
+  position: relative;
+}
+.projects {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.projects > a {
+  color: aliceblue;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962b3;
+  font-family: sans-serif;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 6px;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+.swal-text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  top: 20px;
+  position: absolute;
+}
+
+.time-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 0 30px;
+  border-right: 1px solid #fff;
+  user-select: none;
+}
+
+.time-section:last-child {
+  border: none;
+}
+
+.value {
+  font-size: 75px;
+}
+
+.label {
+  font-size: 15px;
+}
+#datetime-picker {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.btn {
+  font-family: sans-serif;
+  padding: 8px 15px;
+  font-weight: 550;
+}
+
+.goBack {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.goBack > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.goBack > a:hover {
+  color: chocolate;
+}
